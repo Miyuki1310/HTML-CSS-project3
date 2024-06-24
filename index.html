@@ -3,9 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <a href="">
+            <div class="logo">
+              <span class="logo__circle"> </span>
+              <span class="logo__text">
+                <span class="logo__brain">shine</span>
+                <span class="logo__brain logo__brain--small">smile</span>
+              </span>
+            </div>
+          </a>
+
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="" class="navbar__item--link navbar__item--link--active"
+                  >Home</a
+                >
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__item--link">Services</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__item--link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__item--link">Doctors</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="action">
+            <a href="" class="action__signin">Log In</a>
+            <a href="" class="btn action__signup">Sign Up</a>
+          </div>
+        </div>
+
+        <section class="hero">
+          <section class="hero__content">
+            <h1 class="hero__content--title">
+              Exceptional dental care for all ages.
+            </h1>
+            <p class="desc hero__content--desc">
+              Exceptional dental care for all ages. Your great smile begins with
+              a great dentist.
+            </p>
+            <div class="hero__content--action">
+              <a href="" class="btn hero__content--button">Book online</a>
+              <p class="hero__content--phone">or call (123) 456-7890</p>
+            </div>
+          </section>
+
+          <section class="hero__image">
+            <img
+              src="./assets/image/hero1.jpg"
+              alt=""
+              class="hero__image--item1"
+            />
+            <img
+              src="./assets/image/hero2.jpg"
+              alt=""
+              class="hero__image--item2"
+            />
+          </section>
+        </section>
+      </div>
+    </header>
+
+    <section class="services">
+      <div class="container">
+        <section class="services__title">
+          <h2 class="section__heading">Our services</h2>
+          <p class="section__desc">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+        </section>
+        <section class="services__content">
+          <img
+            src="./assets/image/service1.jpg"
+            alt=""
+            class="services__content--image"
+          />
+          <section class="services__content--description">
+            <ul class="services__description">
+              <li class="services__description--item services__item--active">
+                <div class="services__item--image">
+                  <img
+                    src="./assets/image/service.svg"
+                    alt=""
+                    class="services__image--icon"
+                  />
+                </div>
+                <div class="services__item--content">
+                  <h3 class="services__item--heading">Oral Surgery</h3>
+                  <p class="desc services__item--desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+              <li class="services__description--item">
+                <div class="services__item--image">
+                  <img
+                    src="./assets/image/service3.svg"
+                    alt=""
+                    class="services__image--icon"
+                  />
+                </div>
+                <div class="services__item--content">
+                  <h3 class="services__item--heading">Wisdom Teeth Removal</h3>
+                  <p class="desc services__item--desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+              <li class="services__description--item">
+                <div class="services__item--image">
+                  <img
+                    src="./assets/image/service3.svg"
+                    alt=""
+                    class="services__image--icon"
+                  />
+                </div>
+                <div class="services__item--content">
+                  <h3 class="services__item--heading">
+                    Preventative Dentistry
+                  </h3>
+                  <p class="desc services__item--desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <a href="" class="btn services__content--action">All Services</a>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <h2 class="section__heading">How it works</h2>
+        <p class="section__desc work__desc">
+          Exceptional dental care for all ages. Your great smile begins with a
+          great dentist.
+        </p>
+        <div class="work_list">
+          <section class="work__item">
+            <img src="./assets/image/find.svg" alt="" class="work__item--img" />
+            <h3 class="work__list--item">Search doctor</h3>
+            <p class="desc work__item--desc">
+              Search a doctor by education, qualifications or experience-contact
+              for inquiry.
+            </p>
+            <a href="" class="work__item--link">Learn More</a>
+          </section>
+          <section class="work__item">
+            <img src="./assets/image/user.svg" alt="" class="work__item--img" />
+            <h3 class="work__list--item">Find best doctor</h3>
+            <p class="desc work__item--desc">
+              Search a doctor by education, qualifications or experience-contact
+              for inquiry.
+            </p>
+            <a href="" class="work__item--link">Learn More</a>
+          </section>
+          <section class="work__item">
+            <img src="./assets/image/kit.svg" alt="" class="work__item--img" />
+            <h3 class="work__list--item">Get treatment</h3>
+            <p class="desc work__item--desc">
+              Search a doctor by education, qualifications or experience-contact
+              for inquiry.
+            </p>
+            <a href="" class="work__item--link">Learn More</a>
+          </section>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
